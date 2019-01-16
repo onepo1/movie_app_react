@@ -15,8 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  // "homepage": "https://github.com/onepo1/movie_app_react",
-  "homepage": "https://nomadcoders.github.io/movie_app",
+  "homepage": "https://onepo1.github.io/movie_app_react",
   "eslintConfig": {
     "extends": "react-app"
   },
