@@ -233,7 +233,8 @@ class App extends Component {
 //1. fetch를 call api로 변경 
   _callApi = () => {
         // console.log(fetch('https://yts.am/api/v2/list_movies.json?sort_by=rating'));
-        return fetch('https://yts.am/api/v2/list_movies.json?sort_by=download_count')
+        // return fetch('https://yts.am/api/v2/list_movies.json?sort_by=download_count')
+        return fetch('https://yts.am/api/v2/list_movies.json?sort_by=rating')
         .then(response => response.json())
         // .then(json=>console.log(json))
         // =>함수는 reture이 포함되어 있다.
